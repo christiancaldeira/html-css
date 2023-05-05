@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family= Covered +By+Your+Grace & display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family= Berkshire+Swash & display =swap');
+
+@font-face {
+    font-family: 'TheMonkey';
+src: url('fonts/TheMonkey-Regular.ttf');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+    font-family: 'carolingia';
+    src: url('fonts/carolingia.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+ 
+body {
+    color: #000;
+    font-family: 'Berkshire Swash', 'Covered by your grace', serif;
+}
+
+h1 {
+font-family: 'TheMonkey';
+font-size: 48px;
+text-align: center;
+}
+h2 {
+font-family: 'carolingia';
+font-size: 32px;
+font-style: normal;
+
+}

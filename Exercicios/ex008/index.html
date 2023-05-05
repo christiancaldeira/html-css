@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinamicas</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente ou diminua o tamanho do navegador  </p>
+    <picture>
+        
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/foto-m.png" type="image/png">
+<img src="imagens/foto-g.png" alt="Imagem Flexível">
+    </picture>
+    <h1>áudio em HTML</h1>
+    <h2>Adicionando áudio em html</h2>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="media/mp3.mp3" type="audio/mpeg">
+        <source src="media/mp3.ogg" type="audio/ogg">
+        <source src="media/mp3.wav" type="audio/wav">
+        <p>Se seu áudio não Fucionou é por que seu navegador não tem        compatibilidade, sugiro que faça o dowload abaixo
+     <a href="media/mp3.mp3">clique aqui</a></a></p>
+    </audio>
+    <audio preload="metadata" controls autoplay src="media/mp3.mp3"></audio>
+</body>
+</html>
