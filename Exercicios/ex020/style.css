@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+* {
+    margin: 0%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family= Passion +One:wght@400;700 & display=swap');
+
+@import
+url('https://fonts.googleapis.com/css2?family= Sriracha & display=swap');
+
+@font-face {
+    font-family: 'Srinracha';
+    src: url(pacote-d012/fonte/Sriracha/Sriracha-Regular.ttf) format('opentype');
+}
+:root {
+
+    --fonte-destaque: 'Passion One', sans-serif;
+    --fonte-texto: 'Sriracha', sans-serif;
+}
+
+
+body {
+    background-color: rgb(234, 234, 234);
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    height: 70px;
+    max-width: 100%;
+}
+
+header > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    font-family: var(--fonte-texto)
+}
+
+
+
+
+
+
+
+main {
+    max-width: 700px;
+    margin: 100px 26px 36px 8px;
+    text-align: justify;
+    padding: 10px;
+}
+main > p {
+    padding: 40px;
+    font-family: 'Sriracha' ,var(--fonte-texto);
+
+}
+
+div > p {
+    padding: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.conteudo {
+    background-image: url(pacote-d012/imagens/background001.jpg);
+    background-position: left center;
+    background-size: cover;
+
+}
