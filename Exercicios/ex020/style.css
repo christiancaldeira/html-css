@@ -43,6 +43,23 @@ header > h1 {
     font-family: var(--fonte-destaque);
 }
 
+header > p {
+    font-weight: normal;
+    padding: 5px;
+
+}
+
+a {
+text-decoration: none;
+color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blue;
+    font-weight: bold;
+}
+
 
 
 
@@ -60,8 +77,13 @@ main > p {
     padding-bottom: 50px;
     font-family: 'Sriracha' ,var(--fonte-texto);
     font-size: 1.2em;
+    line-height: 50px;
     
     font-weight: bolder;
+
+}
+hr {
+    text-decoration: none;
 
 }
 
@@ -69,6 +91,7 @@ div > p {
     
     font-family: var(--fonte-texto);
     font-size: 1.2em;
+    text-align: justify;
     color: white;
     background-image: linear-gradient(rgba(0, 0, 0, 0.43),transparent);
     padding: 10px;
@@ -76,7 +99,7 @@ div > p {
 
     position: absolute;
 
-    top: 17%;
+    top: 11%;
     left: 2%;
     right: 49%;
 
@@ -134,6 +157,8 @@ footer > h2 > a:hover {
     background-color: rgb(60, 66, 255);
     text-decoration: underline;
     padding: 5px;
+    font-weight: bold;
+    color: black;
     border-radius: 5px;
     font-size: 1.2em;
     transition-duration: 0.5s;
