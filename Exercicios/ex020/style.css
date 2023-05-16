@@ -5,10 +5,8 @@
     
 }
 
-@font-face {
-    font-family: 'Passion One';
-    src: url(pacote-d012/fonte/Passion_One/PassionOne-Bold.ttf) format(truetype);
-}
+
+@import url('https://fonts.googleapis.com/css2?family= Passion +One & display=swap');
 
 @import
 url('https://fonts.googleapis.com/css2?family= Sriracha & display=swap');
@@ -19,13 +17,14 @@ url('https://fonts.googleapis.com/css2?family= Sriracha & display=swap');
 }
 :root {
 
-    --fonte-destaque: 'Passion One', sans-serif;
-    --fonte-texto: 'Sriracha', sans-serif;
+    --fonte-destaque:'Passion One', cursiva;
+    --fonte-texto: 'Sriracha', cursive;
 }
 
 
 body {
     background-color: rgb(234, 234, 234);
+    min-height: 100vh;
 }
 
 header {
@@ -38,14 +37,15 @@ header {
 }
 
 header > h1 {
-    
     padding: 5px;
     font-family: var(--fonte-destaque);
+    font-size: 10vh;
+    font-variant: small-caps;
+    
 }
 
 header > p {
     font-weight: normal;
-    padding: 5px;
 
 }
 
@@ -61,23 +61,18 @@ a:hover {
 }
 
 
-
-
-
-
-
 main {
-    max-width: 700px;
-    margin: 100px 26px 36px 8px;
     text-align: justify;
     padding: 10px;
+    
 }
 main > p {
     padding: 40px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     font-family: 'Sriracha' ,var(--fonte-texto);
-    font-size: 1.2em;
-    line-height: 50px;
+    font-size: 3vh;
+    line-height: 40px;
+    padding: 2em;
     
     font-weight: bolder;
 
@@ -90,16 +85,18 @@ hr {
 div > p {
     
     font-family: var(--fonte-texto);
-    font-size: 1.2em;
     text-align: justify;
+    font-size: 3.2vh;
     color: white;
     background-image: linear-gradient(rgba(0, 0, 0, 0.43),transparent);
     padding: 10px;
+    line-height: 30px;
+    
     
 
     position: absolute;
 
-    top: 11%;
+    top: 16%;
     left: 2%;
     right: 49%;
 
@@ -107,6 +104,7 @@ div > p {
 
 .conteudo {
     background-image: url(pacote-d012/imagens/background001.jpg);
+    background-size: cover;
     background-position: right center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -124,6 +122,7 @@ div > p {
 .destaque {
     background-image: url(pacote-d012/imagens/background002.jpg);
     background-position: right center;
+    background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 158% 101%;
@@ -131,7 +130,7 @@ div > p {
     max-width: 520px;
     margin: 10px 0px 10px 41px;
 
-    position: relative; 
+    position: relative;
 }
 
 
