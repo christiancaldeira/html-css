@@ -110,8 +110,10 @@ div > p {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 158% 101%;
+    
     height: 390px;
-    max-width: 520px;
+    
+
     margin: 10px 0px 10px 41px;
 
     position: relative;
@@ -128,7 +130,6 @@ div > p {
     background-repeat: no-repeat;
     background-size: 158% 101%;
     height: 390px;
-    max-width: 520px;
     margin: 10px 0px 10px 41px;
 
     position: relative;
