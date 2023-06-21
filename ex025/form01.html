@@ -8,8 +8,43 @@
         * {
             font-family: Arial, Helvetica, sans-serif;
         }
+        body {
+            background-color: rgb(3, 3, 29);
+            color: bisque;
+        }
+        
 
+        form {
+            display: flex;
+            align-items: center;
+            justify-content: center ;
+        }
 
+        #inome {
+            text-decoration: none;
+            background-color: transparent;
+            color: beige;
+            border-radius: 5px;
+            border: 2px solid black;
+        }
+
+        #inome:hover {
+            box-shadow: 2px 2px 6px 4px rgba(32, 32, 180, 0.684);
+            transition: 0.5s;
+        }
+
+        #iSenha  {
+            text-decoration: none;
+            background-color: transparent;
+            color: beige;
+            border-radius: 5px;
+            border: 2px solid black;
+        }
+
+        #iSenha:hover {
+            box-shadow: 2px 2px 6px 4px rgba(32, 32, 180, 0.684);
+            transition: 0.5s;
+        }
 
 
 
@@ -17,12 +52,15 @@
 </head>
 <body>
     <h1>Formulário 1/</h1>
-    <form action="cadastro.php">
+    <form action="cadastro.php" method="get">
         <p><label for="inome">Nome: </label>
-            <input type="text" name="nome" id="inome"></p>
+            <input type="text" name="nome" id="inome" required minlength="5" maxlength="15" size="20" placeholder="Nome de Usuário" autocomplete="username"></p>
+
         <p><label for="iSenha">Senha: </label>
-            <input type="text" name="Senha" id="iSenha"></p>
+            <input type="text" name="Senha" id="iSenha" required minlength="8" maxlength="20" size="20" placeholder="Senha do Usuário" autocomplete="current-password"></p>
+
         <p><input type="submit" value="Enviar"></p>
+        <p><input type="reset" value="Limpar"></p>
     </form>
 </body>
 </html>
