@@ -149,6 +149,22 @@ fieldset {
 }
 
 
+@media (max-width: 400px) {
+    h1 {
+        
+        font-weight: bold;
+        font-size: 1.5em;
+    }
+    form {
+        position: absolute;
+        top: 20%;
+        left: 10%;
+    }
+    fieldset {
+        width: 250px;
+    }
 
+    
+}
 
 
