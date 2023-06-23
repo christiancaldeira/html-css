@@ -142,11 +142,13 @@ label {
 
 fieldset {
     padding: 20px;
-    width: 350px;
+    padding-left: 30px;
+    width: 400px;
     color: antiquewhite;
     text-shadow: 1px 1px 6px rgb(0, 255, 145);
     box-shadow: 2px 2px 10px rgba(39, 64, 147, 0.576);
 }
+
 
 
 @media (max-width: 500px) {
@@ -156,12 +158,10 @@ fieldset {
         font-size: 1.5em;
     }
     form {
-        position: absolute;
-        top: 20%;
-        left: 10%;
+        margin: auto;
     }
     fieldset {
-        width: 250px;
+        width: 200px;
     }
 
     
