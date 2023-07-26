@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+/*Versão Para outras Mídias*/
+
+@media print {
+
+    body{
+        background-image: url(../imagens/back-print.jpg);
+        font-family: 'Courier New', Courier, monospace;
+        text-decoration: none;
+    }
+    main {
+        width: 90vw;
+        border: 1px solid black;
+    }
+
+    main::after {
+        content: 'Esta Impressão Foi feita Por Curso em Video';
+        text-decoration: overline;
+        text-align: center;
+    }
+    #cll {display: none;}
+    #tablet{display: none;}
+    #print{display: block;}
+    #pc{display: none;}
+    #tv{display: none;}
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+    background-image: url(../imagens/back-tablet.jpg);
+    }
+    
+    #cll {display: none;}
+    #tablet{display: block;}
+    #print{display: none;}
+    #pc{display: none;}
+    #tv{display: none;}
+
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    body {
+        background-image: url(../imagens/back-pc.jpg);
+        }
+        
+        #cll {display: none;}
+        #tablet{display: none;}
+        #print{display: none;}
+        #pc{display: block;}
+        #tv{display: none;}
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        background-image: url(../imagens/back-tv.jpg);
+        }
+        
+        #cll {display: none;}
+        #tablet{display: none;}
+        #print{display: none;}
+        #pc{display: none;}
+        #tv{display: block;}
+}
