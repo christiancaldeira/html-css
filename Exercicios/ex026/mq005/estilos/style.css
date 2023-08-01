@@ -23,6 +23,10 @@ header > h1 {
     text-shadow: 1px 1px 1px black;
 }
 
+menu  {
+    display: none;
+}
+
 menu a {
     display: block;
 }
@@ -44,6 +48,21 @@ a {
 a:hover {
     background-color: lightgray;
     color: black;
+}
+
+#burguer {
+    background-color: rgb(43, 40, 40);
+    display: block;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#burguer:hover {
+    background-color: rgb(244, 244, 239);
+    color: black;
+    border-radius: 2px;
+    border: 1px solid black;
 }
 
 main {
